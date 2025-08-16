@@ -1,86 +1,76 @@
 # 📊 Global Commodity Price Analysis (1960–2022)
 
-This project explores a historical dataset of monthly global commodity prices from **1960 to 2022**, covering oil, coffee, tea, and sugar. The goal is to perform **exploratory data analysis (EDA)**, visualize long-term trends, and identify patterns or anomalies across different commodities.
+This project explores **62 years of monthly global commodity prices** (Oil, Coffee, Tea, Sugar). Using **Python and EDA techniques**, the analysis uncovers long-term trends, seasonal variations, correlations, and anomalies that shaped global markets.
 
 ---
 
-## 🧠 Objective
-
-- Analyze how global commodity prices have evolved over time.
-- Compare commodity types (Oil, Coffee, Tea, Sugar) across geographies.
-- Identify seasonal trends and long-term market shifts.
-- Gain insights for economic, trade, or policy analysis.
+## 🧠 Objectives
+- Track historical evolution of global commodity prices (1960–2022).  
+- Compare commodities (Oil, Coffee, Tea, Sugar) across regions.  
+- Detect **seasonality, anomalies, and major market shifts**.  
+- Provide insights useful for **economic forecasting and trade policy**.  
 
 ---
 
-## 📁 Dataset Description
-
-The dataset includes **monthly recorded prices** of major global commodities. All prices are in **USD**, nominal (not inflation-adjusted), and are given in either per **barrel (bbl)** or per **kilogram (kg)**.
+## 📁 Dataset
+- **Timeframe:** 1960–2022 (monthly)  
+- **Commodities:** Brent & Dubai Oil, Arabica & Robusta Coffee, Colombo/Kolkata/Mombasa Tea, EU & Global Sugar  
+- **Attributes:** Date, price (USD per barrel/kg)  
 
 | Attribute          | Description                                                                 |
 |--------------------|-----------------------------------------------------------------------------|
-| `date`             | The date of the recorded commodity price (monthly)                         |
-| `oil_brent`        | Price of **Brent Crude Oil** ($/bbl)                                       |
-| `oil_dubai`        | Price of **Dubai Crude Oil** ($/bbl)                                       |
-| `coffee_arabica`   | Price of **Arabica Coffee** ($/kg)                                         |
-| `coffee_robustas`  | Price of **Robusta Coffee** ($/kg)                                         |
-| `tea_columbo`      | Price of **Colombo Tea** ($/kg)                                            |
-| `tea_kolkata`      | Price of **Kolkata Tea** ($/kg)                                            |
-| `tea_mombasa`      | Price of **Mombasa Tea** ($/kg)                                            |
-| `sugar_eu`         | Price of **EU-region Sugar** ($/kg)                                        |
-| `sugar_world`      | Price of **Global average Sugar** ($/kg)                                   |
+| `date`             | Date of recorded commodity price (monthly)                                 |
+| `oil_brent`        | Brent Crude Oil ($/bbl)                                                    |
+| `oil_dubai`        | Dubai Crude Oil ($/bbl)                                                    |
+| `coffee_arabica`   | Arabica Coffee ($/kg)                                                      |
+| `coffee_robustas`  | Robusta Coffee ($/kg)                                                      |
+| `tea_colombo`      | Colombo Tea ($/kg)                                                         |
+| `tea_kolkata`      | Kolkata Tea ($/kg)                                                         |
+| `tea_mombasa`      | Mombasa Tea ($/kg)                                                         |
+| `sugar_eu`         | EU-region Sugar ($/kg)                                                     |
+| `sugar_world`      | Global average Sugar ($/kg)                                                |
 
 ---
 
 ## 🛠️ Tools & Libraries
-
-- Python 3.x
-- Pandas
-- NumPy
-- Seaborn
-- Matplotlib
-- Plotly (optional for interactive plots)
-- Jupyter Notebook
+- Python (Pandas, NumPy)  
+- Visualization: Matplotlib, Seaborn, Plotly  
+- Jupyter Notebook  
 
 ---
 
-## 📈 Key Exploratory Analysis Steps
-
-- Time-series visualization of each commodity
-- Moving averages and smoothing for trend analysis
-- Correlation between commodities (e.g., Brent Oil vs. Dubai Oil)
-- Seasonal and annual variation detection
-- Pre/post 2008 and COVID-19 price comparisons
+## 📈 Key Analysis
+- Time-series trends of each commodity  
+- Moving averages & smoothing for long-term signals  
+- **Correlation analysis** (e.g., Brent vs Dubai Oil)  
+- Seasonal variations & anomaly detection (oil crises, COVID-19)  
+- Pre/post **2008 financial crisis** & **COVID-19** comparisons  
 
 ---
 
 ## 📊 Visualizations
-
-Included visualizations:
-- Line charts for each commodity price trend
-- Heatmaps for correlation analysis
-- Subplots comparing multiple commodity categories
-- Anomaly detection in price spikes (e.g., oil crises)
+*(Add sample plots from your notebook for maximum impact)*  
+- 📈 Line charts for price trends  
+- 🔥 Heatmaps for correlations  
+- 📊 Subplots comparing commodities  
+- ⚡ Anomaly detection in price spikes  
 
 ---
 
 ## 🔍 Use Cases
-
-This dataset and analysis can be used for:
-- Forecasting global commodity prices
-- Economic impact studies (e.g., fuel inflation)
-- Building dashboards for global trade analytics
-- Research on market resilience and volatility
+- Forecasting global commodity prices  
+- Economic & trade impact studies  
+- Market volatility & resilience research  
+- Business dashboards for global analytics  
 
 ---
 
 ## 📎 About Me
+I’m **Aditya Tirakapadi**, a student of AI & Data Science with interests in data visualization, trend analysis, and business insights from real-world datasets.
 
-I'm **Aditya Tirakapadi**, a student of AI & Data Science with interests in data visualization, trend analysis, and business insights from real-world datasets.
-
-- 💼 [GitHub](https://github.com/Aditya181-del)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/aditya-tirakapadi-90a38b26b/)
+- 💼 [GitHub](https://github.com/Aditya181-del)  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/aditya-tirakapadi-90a38b26b/)  
 
 ---
 
-⭐ If you find this project helpful or insightful, consider giving it a **star** or forking for your own exploration!
+⭐ If you find this project helpful, please **star** the repo or fork it for your own exploration!
