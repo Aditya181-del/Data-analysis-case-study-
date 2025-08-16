@@ -49,7 +49,10 @@ This project explores **62 years of monthly global commodity prices** (Oil, Coff
 ---
 
 ## 📊 Visualizations
-*(Add sample plots from your notebook for maximum impact)*  
+![WhatsApp Image 2025-08-16 at 19 47 38_ee8b3ac4](https://github.com/user-attachments/assets/5639865f-e604-44fd-bb3e-86629b9f8bc3)
+
+<img width="992" height="778" alt="image" src="https://github.com/user-attachments/assets/c53e6bc1-b4dd-4fa1-8de6-f91d2fa015f2" />
+
 - 📈 Line charts for price trends  
 - 🔥 Heatmaps for correlations  
 - 📊 Subplots comparing commodities  
